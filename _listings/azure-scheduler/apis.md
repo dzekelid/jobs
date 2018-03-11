@@ -28,7 +28,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-jobs-jobname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-jobs-jobname-run-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/scheduler/
