@@ -27,7 +27,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-resume-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-stop-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
