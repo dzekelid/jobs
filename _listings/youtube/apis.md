@@ -26,7 +26,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/youtube/v1-jobs-jobid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/youtube/v1-jobs-jobid-parameters.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
