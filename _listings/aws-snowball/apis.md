@@ -43,7 +43,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/aws-snowball/action-listclusterjobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/aws-snowball/action-listjobs-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
