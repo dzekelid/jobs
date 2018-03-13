@@ -36,7 +36,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/aws-code-pipeline/action-pollforjobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/aws-code-pipeline/action-pollforthirdpartyjobs-get.md
 x-common:
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
