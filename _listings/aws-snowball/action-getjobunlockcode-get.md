@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetJobUnlockCode&k=1:
+  /?Action=GetJobUnlockCode:
     get:
       summary: ' Get Job Unlock Code '
       description: Returns the UnlockCode code value for the specified job
