@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PollForThirdPartyJobs&k=1:
+  /?Action=PollForThirdPartyJobs:
     get:
       summary: ' Poll For Third Party Jobs '
       description: Determines whether there are any third party jobs for a job worker
