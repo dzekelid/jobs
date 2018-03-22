@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TerminateJob&k=1:
+  /?Action=TerminateJob:
     get:
       summary: ' Terminate Job '
       description: Terminates jobs in a job queue
