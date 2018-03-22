@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReplicationJob&k=1:
+  /?Action=CreateReplicationJob:
     get:
       summary: ' Create Replication Job '
       description: The create-replication-job API is used to create a ReplicationJob
