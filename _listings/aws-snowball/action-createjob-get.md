@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateJob&k=1:
+  /?Action=CreateJob:
     get:
       summary: ' Create Job '
       description: |-
