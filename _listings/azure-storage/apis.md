@@ -23,7 +23,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-jobname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-jobname-delete.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
