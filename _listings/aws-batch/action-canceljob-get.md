@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelJob&k=1:
+  /?Action=CancelJob:
     get:
       summary: ' Cancel Job '
       description: Cancels jobs in an AWS Batch job queue
