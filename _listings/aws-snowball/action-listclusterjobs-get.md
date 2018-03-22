@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListClusterJobs&k=1:
+  /?Action=ListClusterJobs:
     get:
       summary: ' List Cluster Jobs '
       description: Returns an array of JobListEntry objects of the specified length
