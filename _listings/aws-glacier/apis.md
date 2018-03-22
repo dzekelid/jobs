@@ -27,7 +27,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-glacier/accountid-vaults-vaultname-jobs-jobid-output-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-glacier/accountid-vaults-vaultname-jobs-post.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-Glacier/
