@@ -23,7 +23,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/jobs-id-related-jobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/skills-id-related-jobs-get.md
 x-common:
 - type: x-developer
   url: http://api.dataatwork.org/v1/spec/
