@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SubmitJob&k=1:
+  /?Action=SubmitJob:
     get:
       summary: ' Submit Job '
       description: Submits an AWS Batch job from a job definition
