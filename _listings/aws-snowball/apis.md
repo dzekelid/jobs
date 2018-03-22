@@ -28,9 +28,9 @@ tags:
 - Database
 - Data
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/aws-snowball/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Snowball API
@@ -43,7 +43,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/aws-snowball/action-updatejob-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-canceljob-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
