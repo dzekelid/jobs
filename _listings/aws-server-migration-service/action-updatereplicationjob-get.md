@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateReplicationJob&k=1:
+  /?Action=UpdateReplicationJob:
     get:
       summary: ' Update Replication Job '
       description: The update-replication-job API is used to change the settings of
