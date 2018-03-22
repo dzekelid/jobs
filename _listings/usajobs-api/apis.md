@@ -11,9 +11,9 @@ x-alexaRank: ""
 tags:
 - Stack Network
 - Federal Government   GSA
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/usajobs-api/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/usajobs-api/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: USAJobs API
@@ -25,7 +25,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/usajobs-api/jobs-search-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/usajobs-api/jobs-search-json-get.md
 x-common:
 - type: x-website
   url: https://search.digitalgov.gov/developer/jobs.html
