@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListJobs&k=1:
+  /?Action=ListJobs:
     get:
       summary: ' List Jobs '
       description: Returns a list of task jobs for a specified job queue
