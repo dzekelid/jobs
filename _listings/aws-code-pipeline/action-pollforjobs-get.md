@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PollForJobs&k=1:
+  /?Action=PollForJobs:
     get:
       summary: ' Poll For Jobs '
       description: Returns information about any jobs for AWS CodePipeline to act
