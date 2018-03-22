@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetReplicationJobs&k=1:
+  /?Action=GetReplicationJobs:
     get:
       summary: ' Get Replication Jobs '
       description: The get-replication-jobs API will return all of your ReplicationJobs
