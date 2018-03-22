@@ -9,9 +9,9 @@ tags:
 - Storage
 - Stack Network
 - Microsoft
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/azure-storage/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Storage API
@@ -23,7 +23,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-jobname-listbitlockerkeys-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-providers-microsoft-importexport-jobs-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
