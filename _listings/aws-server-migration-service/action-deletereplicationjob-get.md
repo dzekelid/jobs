@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteReplicationJob&k=1:
+  /?Action=DeleteReplicationJob:
     get:
       summary: ' Delete Replication Job '
       description: The delete-replication-job API is used to delete a ReplicationJob,
