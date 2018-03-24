@@ -14,7 +14,18 @@ created: "2018-03-23"
 modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Device Farm API
+  description: AWS Device Farm is an app testing service that lets you test and interact
+    with your Android, iOS, and web apps on many devices at once, or reproduce issues
+    on a device in real time
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: ""
+  baseURL: :///
+  tags: Jobs
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/action-listjobs-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/blogs/mobile/tag/aws-device-farm/
