@@ -19,8 +19,8 @@ tags:
 - Jobs
 - Data
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/action-terminatejob-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/action-canceljob-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
