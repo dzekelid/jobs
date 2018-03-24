@@ -28,7 +28,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/datagov/workers-jobs-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/datagov/workers-jobs-id-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
