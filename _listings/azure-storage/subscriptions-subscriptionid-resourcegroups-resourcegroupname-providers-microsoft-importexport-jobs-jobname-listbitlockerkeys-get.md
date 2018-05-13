@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs List Bit Locker Keys
   version: 1.0.0
+  description: Lists the BitLocker keys for all drives in the specified import/export
+    job.
 host: management.azure.com
 basePath: /
 schemes:
