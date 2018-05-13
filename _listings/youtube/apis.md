@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1-jobs-jobid-reports-reportid-parameters.md
-- name: Youtube Get Jobs
-  description: Lists jobs.
+- name: Youtube Parameters Jobs
+  description: Parameters v1 jobs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1-jobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1-jobs-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1-jobs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1-jobs-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
