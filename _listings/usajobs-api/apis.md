@@ -26,7 +26,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/usajobs-api/jobs-search-json-get.md
+- name: USAJobs API Search Jobs
+  description: his Jobs API allows you to tap into a list of current jobs openings
+    with the government.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usajobs.png
+  humanURL: https://search.digitalgov.gov/developer/jobs.html
+  baseURL: https://api.usa.gov//
+  tags: Jobs
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/usajobs-api/jobs-search-json-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/usajobs-api/jobs-search-json-get-postman.md
 x-common:
+- type: x-website
+  url: https://search.digitalgov.gov/developer/jobs.html
+- type: x-terms-of-service
+  url: https://www.usa.gov/About/developer-resources/terms-of-service.shtml
 - type: x-website
   url: https://search.digitalgov.gov/developer/jobs.html
 - type: x-terms-of-service
