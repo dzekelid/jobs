@@ -37,15 +37,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/action-pollforthirdpartyjobs-get.md
-- name: AWS Code Pipeline API Poll For Jobs
-  description: Returns information about any jobs for AWS CodePipeline to act upon.
+- name: AWS Code Pipeline API Poll For Third Party Jobs
+  description: Determines whether there are any third party jobs for a job worker
+    to act on.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
   baseURL: http:://{host}//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/action-pollforjobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/action-pollforthirdpartyjobs-get.md
 x-common:
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
