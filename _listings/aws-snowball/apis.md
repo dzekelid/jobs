@@ -44,17 +44,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-updatejob-get.md
-- name: AWS Snowball API Describe Job
-  description: |-
-    Returns information about a specific job including shipping information, job status,
-          and other important metadata.
+- name: AWS Snowball API Get Job Unlock Code
+  description: Returns the UnlockCode code value for the specified job.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
   humanURL: https://aws.amazon.com/snowball/
   baseURL: http:://{host}//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-describejob-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-getjobunlockcode-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
