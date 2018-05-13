@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Test Jobs Resume
   version: 1.0.0
+  description: Resume the test job.
 host: management.azure.com
 basePath: /
 schemes:
