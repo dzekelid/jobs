@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs Delete
   version: 1.0.0
+  description: Deletes an existing import/export job. Only import/export jobs in the
+    Creating or Completed states can be deleted.
 host: management.azure.com
 basePath: /
 schemes:
