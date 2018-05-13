@@ -24,17 +24,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-jobname-listbitlockerkeys-get.md
-- name: Azure Storage API Jobs List By Resource Group
-  description: Returns all active and completed import/export jobs in a resource group.
+- name: Azure Storage API Jobs Get
+  description: Gets information about an existing import/export job.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
   humanURL: https://azure.microsoft.com/en-us/services/storage/
   baseURL: http:://management.azure.com//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-jobname-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-importexport-jobs-jobname-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
