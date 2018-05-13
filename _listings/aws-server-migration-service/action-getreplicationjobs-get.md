@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Server Migration Service API
+  title: AWS Server Migration Service API Get Replication Jobs
   version: 1.0.0
+  description: The get-replication-jobs API will return all of your ReplicationJobs
+    and their details.
 schemes:
 - http
 produces:
