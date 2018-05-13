@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs Get
   version: 1.0.0
+  description: Gets information about an existing import/export job.
 host: management.azure.com
 basePath: /
 schemes:
