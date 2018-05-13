@@ -1,8 +1,18 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API Describe  Job
   version: 1.0.0
+  description: "DescriptionThis operation returns information about a job you previously
+    initiated, including the job\n\t\t\tinitiation date, the user who initiated the
+    job, the job status code/message and the\n\t\t\tAmazon Simple Notification Service
+    (Amazon SNS) topic to notify after Amazon Glacier\n\t\t\tcompletes the job. For
+    more information about initiating a job, see Initiate Job (POST jobs). \n\t\t\tNoteThis
+    operation enables you to check the status of your job. However, it is\n\t\t\t\t\tstrongly
+    recommended that you set up an Amazon SNS topic and specify it in your\n\t\t\t\t\tinitiate
+    job request so that Amazon Glacier can notify the topic after it completes\n\t\t\t\t\tthe
+    job. \n\t\tA job ID will not expire for at least 24 hours after Amazon Glacier
+    completes the job. Requests"
 schemes:
 - http
 produces:
