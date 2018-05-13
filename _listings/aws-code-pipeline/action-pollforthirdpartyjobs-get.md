@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Code Pipeline API
+  title: AWS Code Pipeline API Poll For Third Party Jobs
   version: 1.0.0
+  description: Determines whether there are any third party jobs for a job worker
+    to act on.
 schemes:
 - http
 produces:
