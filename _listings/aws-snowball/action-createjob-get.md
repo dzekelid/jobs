@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Create Job
   version: 1.0.0
+  description: |-
+    Creates a job to import or export data between Amazon S3 and your on-premises data
+          center.
 schemes:
 - http
 produces:
