@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Server Migration Service API
+  title: AWS Server Migration Service API Delete Replication Job
   version: 1.0.0
+  description: The delete-replication-job API is used to delete a ReplicationJob,
+    resulting in no further ReplicationRuns.
 schemes:
 - http
 produces:
