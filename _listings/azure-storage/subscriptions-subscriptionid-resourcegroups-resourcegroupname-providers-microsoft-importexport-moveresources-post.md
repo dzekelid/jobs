@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs Move
   version: 1.0.0
+  description: Moves the specified import/export jobs from the resource group to a
+    target resource group. The target resource group may be in a different subscription.
 host: management.azure.com
 basePath: /
 schemes:
