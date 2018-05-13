@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Code Pipeline API
+  title: AWS Code Pipeline API Poll For Jobs
   version: 1.0.0
+  description: Returns information about any jobs for AWS CodePipeline to act upon.
 schemes:
 - http
 produces:
