@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SchedulerManagementClient
+  title: Azure Scheduler API Jobs List Job History
   version: 1.0.0
+  description: Lists job history.
 host: management.azure.com
 basePath: /
 schemes:
