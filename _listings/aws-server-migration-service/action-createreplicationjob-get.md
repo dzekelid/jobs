@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Server Migration Service API
+  title: AWS Server Migration Service API Create Replication Job
   version: 1.0.0
+  description: The create-replication-job API is used to create a ReplicationJob to
+    replicate a server on AWS.
 schemes:
 - http
 produces:
