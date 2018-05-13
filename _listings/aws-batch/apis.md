@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/action-terminatejob-get.md
-- name: AWS Batch API Cancel Job
-  description: Cancels jobs in an AWS Batch job queue.
+- name: AWS Batch API List Jobs
+  description: Returns a list of task jobs for a specified job queue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg
   humanURL: https://aws.amazon.com/batch/
   baseURL: http:://{host}//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/action-canceljob-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/action-listjobs-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/batch/latest/APIReference/API_Operations.html
