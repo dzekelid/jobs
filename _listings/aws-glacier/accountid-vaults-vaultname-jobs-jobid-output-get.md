@@ -1,8 +1,29 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Glacier API
+  title: Amazon Glacier API Get  Job  Output
   version: 1.0.0
+  description: "DescriptionThis operation downloads the output of the job you initiated
+    using Initiate Job (POST jobs). Depending\n\t\t\ton the job type you specified
+    when you initiated the job, the output will be either the\n\t\t\tcontent of an
+    archive or a vault inventory. You can download all the job output or download
+    a portion of the output by specifying\n\t\t\ta byte range. For both archive and
+    inventory retrieval jobs, you should verify the downloaded \n\t\t\tsize against
+    the size returned in the headers from the \n\t\t\tGet Job Output response.For
+    archive retrieval jobs, you should also verify that the size is what you expected.
+    If\n\t\t\tyou download a portion of the output, the expected size is based on
+    the range of bytes\n\t\t\tyou specified. For example, if you specify a range of
+    bytes=0-1048575, you should\n\t\t\tverify your download size is 1,048,576 bytes.
+    If you download an entire archive, the\n\t\t\texpected size is the size of the
+    archive when you uploaded it to Amazon Glacier.\n\t\t\tThe expected size is also
+    returned in the headers from the \n\t\t\tGet Job Output response.In the case of
+    an archive retrieval job, depending on the byte range you\n\t\t\tspecify, Amazon
+    Glacier returns the checksum for the portion of the data. To ensure the portion
+    you downloaded \n\t\t\tis the correct data, compute the checksum on the client,
+    verify that the values match, \n\t\t\tand verify that the size is what you expected.A
+    job ID does not expire for at least 24 hours after Amazon Glacier completes the
+    job. That\n\t\t\tis, you can download the job output within the 24-hour period
+    after Amazon Glacier\n\t\t\tcompletes the job.Requests"
 schemes:
 - http
 produces:
