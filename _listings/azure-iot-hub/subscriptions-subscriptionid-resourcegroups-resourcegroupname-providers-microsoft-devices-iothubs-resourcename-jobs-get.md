@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: iotHubClient
-  description: Use this API to manage the IoT hubs in your subscription.
+  title: Azure IoT Hub API Iot Hub Resource List Jobs
+  description: 'Get a list of all the jobs in an IoT hub. For more information, see:
+    https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry.'
   version: 1.0.0
 host: management.azure.com
 basePath: /
