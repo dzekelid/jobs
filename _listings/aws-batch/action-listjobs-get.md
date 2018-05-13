@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Batch API
+  title: AWS Batch API List Jobs
   version: 1.0.0
+  description: Returns a list of task jobs for a specified job queue.
 schemes:
 - http
 produces:
