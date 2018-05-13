@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Get Job Unlock Code
   version: 1.0.0
+  description: Returns the UnlockCode code value for the specified job.
 schemes:
 - http
 produces:
