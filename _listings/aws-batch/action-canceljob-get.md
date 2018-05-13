@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Batch API
+  title: AWS Batch API Cancel Job
   version: 1.0.0
+  description: Cancels jobs in an AWS Batch job queue.
 schemes:
 - http
 produces:
