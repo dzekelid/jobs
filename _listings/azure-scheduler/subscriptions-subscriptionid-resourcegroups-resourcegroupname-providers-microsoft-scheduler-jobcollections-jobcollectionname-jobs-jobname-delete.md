@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SchedulerManagementClient
+  title: Azure Scheduler API Jobs Delete
   version: 1.0.0
+  description: Deletes a job.
 host: management.azure.com
 basePath: /
 schemes:
