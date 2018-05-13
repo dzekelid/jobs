@@ -47,6 +47,26 @@ x-common:
   url: https://aws.amazon.com/device-farm/pricing
 - type: x-website
   url: https://aws.amazon.com/device-farm/
+- type: x-blog
+  url: https://aws.amazon.com/blogs/mobile/tag/aws-device-farm/
+- type: x-concepts
+  url: https://docs.aws.amazon.com/devicefarm/latest/developerguide/concepts.html
+- type: x-documentation
+  url: https://docs.aws.amazon.com/devicefarm/latest/developerguide/api-ref.html
+- type: x-documentation
+  url: https://docs.aws.amazon.com/devicefarm/latest/developerguide/cli-ref.html
+- type: x-limits
+  url: https://docs.aws.amazon.com/devicefarm/latest/developerguide/limits.html
+- type: x-logging
+  url: https://docs.aws.amazon.com/devicefarm/latest/developerguide/cloudtrail.html
+- type: x-plugins
+  url: https://github.com/awslabs?q=aws-device-farm
+- type: x-faq
+  url: https://aws.amazon.com/device-farm/faq
+- type: x-pricing
+  url: https://aws.amazon.com/device-farm/pricing
+- type: x-website
+  url: https://aws.amazon.com/device-farm/
 include: []
 maintainers:
 - FN: Kin Lane
