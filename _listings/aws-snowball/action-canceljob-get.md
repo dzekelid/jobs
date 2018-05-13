@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Cancel Job
   version: 1.0.0
+  description: Cancels the specified job.
 schemes:
 - http
 produces:
