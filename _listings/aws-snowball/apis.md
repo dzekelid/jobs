@@ -44,15 +44,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-updatejob-get.md
-- name: AWS Snowball API Cancel Job
-  description: Cancels the specified job.
+- name: AWS Snowball API Create Job
+  description: |-
+    Creates a job to import or export data between Amazon S3 and your on-premises data
+          center.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
   humanURL: https://aws.amazon.com/snowball/
   baseURL: http:://{host}//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-canceljob-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-createjob-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
