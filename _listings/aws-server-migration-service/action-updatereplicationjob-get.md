@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Server Migration Service API
+  title: AWS Server Migration Service API Update Replication Job
   version: 1.0.0
+  description: The update-replication-job API is used to change the settings of your
+    existing ReplicationJob created using CreateReplicationJob.
 schemes:
 - http
 produces:
