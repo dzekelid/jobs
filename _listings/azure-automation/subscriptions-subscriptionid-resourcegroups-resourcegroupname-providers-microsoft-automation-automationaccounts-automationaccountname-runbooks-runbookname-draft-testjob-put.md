@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Test Jobs Create
   version: 1.0.0
+  description: Create a test job of the runbook.
 host: management.azure.com
 basePath: /
 schemes:
