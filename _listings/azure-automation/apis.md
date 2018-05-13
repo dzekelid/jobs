@@ -28,15 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-suspend-post.md
-- name: Azure Automation API Test Jobs Create
-  description: Create a test job of the runbook.
+- name: Azure Automation API Test Jobs Get
+  description: Retrieve the test job for the specified runbook.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
   baseURL: http:://management.azure.com//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
