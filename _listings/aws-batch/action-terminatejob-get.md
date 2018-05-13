@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Batch API
+  title: AWS Batch API Terminate Job
   version: 1.0.0
+  description: Terminates jobs in a job queue.
 schemes:
 - http
 produces:
