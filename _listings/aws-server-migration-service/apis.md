@@ -28,16 +28,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-server-migration-service/action-updatereplicationjob-get.md
-- name: AWS Server Migration Service API Get Replication Jobs
-  description: The get-replication-jobs API will return all of your ReplicationJobs
-    and their details.
+- name: AWS Server Migration Service API Update Replication Job
+  description: The update-replication-job API is used to change the settings of your
+    existing ReplicationJob created using CreateReplicationJob.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png
   humanURL: https://aws.amazon.com/server-migration-service/
   baseURL: http:://{host}//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-server-migration-service/action-getreplicationjobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-server-migration-service/action-updatereplicationjob-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/server-migration-service/latest/userguide/cli_workflow.html
