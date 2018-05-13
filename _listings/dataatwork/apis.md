@@ -24,8 +24,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/skills-id-related-jobs-get.md
-- name: Open Skills API Jobs Associated with a Job
-  description: Retrieves a collection of jobs associated with a specified job.
+- name: Open Skills API Jobs Associated with a Skill
+  description: Retrieves a collection of jobs associated with a specified skill.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2016-10-12 at 11.19.25 PM.png
   humanURL: http://www.dataatwork.org/
@@ -33,9 +33,9 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/jobs-id-related-jobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/skills-id-related-jobs-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/jobs-id-related-jobs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/skills-id-related-jobs-get-postman.md
 x-common:
 - type: x-developer
   url: http://api.dataatwork.org/v1/spec/
