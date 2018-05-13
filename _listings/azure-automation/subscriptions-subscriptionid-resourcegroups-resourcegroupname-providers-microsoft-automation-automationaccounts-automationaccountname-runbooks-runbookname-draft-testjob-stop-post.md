@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Test Jobs Stop
   version: 1.0.0
+  description: Stop the test job.
 host: management.azure.com
 basePath: /
 schemes:
