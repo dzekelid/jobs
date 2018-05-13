@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Update Job
   version: 1.0.0
+  description: |-
+    While a job's JobState value is New, you can update some of
+          the information associated with a job.
 schemes:
 - http
 produces:
