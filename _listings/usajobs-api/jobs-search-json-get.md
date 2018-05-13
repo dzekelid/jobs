@@ -1,10 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: USAJobs API
-  description: Federal, state, and local government agencies are hiring and have thousands
-    of job openings across the country, posted on USAJobs.gov and local government
-    jobs sites.
+  title: USAJobs API Search Jobs
+  description: his Jobs API allows you to tap into a list of current jobs openings
+    with the government.
   termsOfService: https://www.usa.gov/About/developer-resources/terms-of-service.shtml
   version: 1.0.0
 host: api.usa.gov
