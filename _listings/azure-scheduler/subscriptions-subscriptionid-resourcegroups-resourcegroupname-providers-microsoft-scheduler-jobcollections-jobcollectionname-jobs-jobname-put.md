@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SchedulerManagementClient
+  title: Azure Scheduler API Jobs Create Or Update
   version: 1.0.0
+  description: Provisions a new job or updates an existing job.
 host: management.azure.com
 basePath: /
 schemes:
