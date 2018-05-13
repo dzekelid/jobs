@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs Create Or Update
   version: 1.0.0
+  description: Creates a new import/export job or updates an existing import/export
+    job in the specified subscription.
 host: management.azure.com
 basePath: /
 schemes:
