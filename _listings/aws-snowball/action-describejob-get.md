@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API Describe Job
   version: 1.0.0
+  description: |-
+    Returns information about a specific job including shipping information, job status,
+          and other important metadata.
 schemes:
 - http
 produces:
