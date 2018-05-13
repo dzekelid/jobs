@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/datagov/workers-jobs-id-put.md
-- name: Data.gov API Add Workers Jobs
-  description: Create a new scheduled job
+- name: Data.gov API Get Workers Jobs Schedulables
+  description: List all schedulable jobs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/datagov/workers-jobs-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/datagov/workers-jobs-schedulables-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/datagov/workers-jobs-schedulables-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
