@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs List By Resource Group
   version: 1.0.0
+  description: Returns all active and completed import/export jobs in a resource group.
 host: management.azure.com
 basePath: /
 schemes:
