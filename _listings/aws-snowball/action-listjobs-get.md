@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Snowball API
+  title: AWS Snowball API List Jobs
   version: 1.0.0
+  description: Returns an array of JobListEntry objects of the specified length.
 schemes:
 - http
 produces:
