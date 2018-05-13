@@ -44,7 +44,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-updatejob-get.md
+- name: AWS Snowball API Cancel Job
+  description: Cancels the specified job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: http:://{host}//
+  tags: Jobs
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-snowball/action-canceljob-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
+- type: x-faq
+  url: https://aws.amazon.com/snowball/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/snowball/getting-started/
+- type: x-tools
+  url: https://aws.amazon.com/snowball/tools/
+- type: x-website
+  url: https://aws.amazon.com/snowball/
 - type: x-documentation
   url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
 - type: x-faq
