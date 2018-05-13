@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-jobs-jobname-history-get.md
-- name: Azure Scheduler API Jobs Create Or Update
-  description: Provisions a new job or updates an existing job.
+- name: Azure Scheduler API Jobs Patch
+  description: Patches an existing job.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-scheduler-create.png
   humanURL: https://azure.microsoft.com/en-us/services/scheduler/
   baseURL: http:://management.azure.com//
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-jobs-jobname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-jobs-jobname-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/scheduler/
