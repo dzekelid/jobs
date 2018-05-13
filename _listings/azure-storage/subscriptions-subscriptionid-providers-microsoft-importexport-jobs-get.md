@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs List
   version: 1.0.0
+  description: Gets all the active and completed import/export jobs in a subscription.
 host: management.azure.com
 basePath: /
 schemes:
