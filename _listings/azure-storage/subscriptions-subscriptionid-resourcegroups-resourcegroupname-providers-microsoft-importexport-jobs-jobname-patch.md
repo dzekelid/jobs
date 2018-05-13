@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Jobs Update
   version: 1.0.0
+  description: Updates specific properties of the import/export job. You can call
+    this operation to notify the Import/Export service that the hard drives comprising
+    the import or export job have been shipped to the Microsoft data center. It can
+    also be used to cancel an existing job.
 host: management.azure.com
 basePath: /
 schemes:
