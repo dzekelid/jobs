@@ -1,69 +1,68 @@
 ---
 name: AWS Code Pipeline
+x-slug: aws-code-pipeline
 description: AWS Data Pipeline is a web service that helps you reliably process and
   move data between different AWS compute and storage services, as well as on-premise
   data sources, at specified intervals. With AWS Data Pipeline, you can regularly
-  access your data where itrsquo;s stored, transform and process it at scale, and
+  access your data where it&rsquo;s stored, transform and process it at scale, and
   efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS,
-  Amazon DynamoDB, and Amazon EMR.nAWS Data Pipeline helps you easily create complex
+  Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex
   data processing workloads that are fault tolerant, repeatable, and highly available.
-  You donrsquo;t have to worry about ensuring resource availability, managing inter-task
+  You don&rsquo;t have to worry about ensuring resource availability, managing inter-task
   dependencies, retrying transient failures or timeouts in individual tasks, or creating
   a failure notification system. AWS Data Pipeline also allows you to move and process
   data that was previously locked up in on-premise data silos.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- SDK
-- Orchestration
-- Migration
-- Data
-- Amazon Web Services
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/apis.yaml
+x-alexaRank: "0"
+tags: Jobs
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Code Pipeline API
-  description: AWS Data Pipeline is a web service that helps you reliably process
-    and move data between different AWS compute and storage services, as well as on-premise
-    data sources, at specified intervals
+- name: AWS Code Pipeline API Poll For Jobs
+  x-api-slug: aws-code-pipeline-api
+  description: Returns information about any jobs for AWS CodePipeline to act upon.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
-  humanURL: ""
-  baseURL: :///
-  tags: Jobs
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: ://///?Action=PollForJobs
+  tags: PollJobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/action-pollforthirdpartyjobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionpollforjobs-get-openapi.md
 - name: AWS Code Pipeline API Poll For Third Party Jobs
+  x-api-slug: aws-code-pipeline-api
   description: Determines whether there are any third party jobs for a job worker
     to act on.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: http:://{host}//
+  baseURL: ://///?Action=PollForThirdPartyJobs
+  tags: PollThird, Party, Jobs
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionpollforthirdpartyjobs-get-openapi.md
+- name: AWS Code Pipeline API
+  x-api-slug: aws-code-pipeline-api
+  description: AWS Data Pipeline is a web service that helps you reliably process
+    and move data between different AWS compute and storage services, as well as on-premise
+    data sources, at specified intervals. With AWS Data Pipeline, you can regularly
+    access your data where it&rsquo;s stored, transform and process it at scale, and
+    efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS,
+    Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex
+    data processing workloads that are fault tolerant, repeatable, and highly available.
+    You don&rsquo;t have to worry about ensuring resource availability, managing inter-task
+    dependencies, retrying transient failures or timeouts in individual tasks, or
+    creating a failure notification system. AWS Data Pipeline also allows you to move
+    and process data that was previously locked up in on-premise data silos.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/action-pollforthirdpartyjobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/openapi.md
 x-common:
-- type: x-blog
-  url: http://blogs.aws.amazon.com/bigdata
-- type: x-change-log
-  url: http://aws.amazon.com/releasenotes/AWS-Data-Pipeline/
-- type: x-documentation
-  url: http://docs.aws.amazon.com/datapipeline/latest/APIReference/
-- type: x-faq
-  url: https://aws.amazon.com/datapipeline/faqs/
-- type: x-forum
-  url: https://forums.aws.amazon.com/forum.jspa?forumID=151
-- type: x-pricing
-  url: https://aws.amazon.com/datapipeline/pricing/
-- type: x-tools
-  url: http://aws.amazon.com/developertools/AWS-Data-Pipeline/
-- type: x-website
-  url: https://aws.amazon.com/datapipeline/
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
 - type: x-change-log
