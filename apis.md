@@ -4,7 +4,7 @@ description: This is a repository of jobs APIs, self-contained as a Github repos
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/jobs.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://jobs.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -52,8 +52,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/appveyor-ci/apis.yaml
 - name: Kaltura
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/kaltura/apis.yaml
-- name: Pay Run
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/pay-run/apis.yaml
+- name: PayRun.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/payrun-io/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
