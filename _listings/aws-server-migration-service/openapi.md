@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Server Migration Service
 x-complete: 1
@@ -12,60 +11,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReplicationJob:
-    get:
-      summary: Create Replication Job
-      description: The create-replication-job API is used to create a ReplicationJob
-        to replicate a server on AWS.
-      operationId: createReplicationJob
-      x-api-path-slug: actioncreatereplicationjob-get
-      parameters:
-      - in: query
-        name: description
-        description: 'Type: String'
-        type: string
-      - in: query
-        name: frequency
-        description: 'Type: Integer'
-        type: string
-      - in: query
-        name: licenseType
-        description: 'Type: String'
-        type: string
-      - in: query
-        name: roleName
-        description: 'Type: String'
-        type: string
-      - in: query
-        name: seedReplicationTime
-        description: 'Type: Timestamp'
-        type: string
-      - in: query
-        name: serverId
-        description: 'Type: String'
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Replication Jobs
-  /?Action=DeleteReplicationJob:
-    get:
-      summary: Delete Replication Job
-      description: The delete-replication-job API is used to delete a ReplicationJob,
-        resulting in no further ReplicationRuns.
-      operationId: deleteReplicationJob
-      x-api-path-slug: actiondeletereplicationjob-get
-      parameters:
-      - in: query
-        name: replicationJobId
-        description: 'Type: String'
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Replication Jobs
   /?Action=GetReplicationJobs:
     get:
       summary: Get Replication Jobs
@@ -91,41 +36,3 @@ paths:
           description: OK
       tags:
       - Replication Jobs
-  /?Action=UpdateReplicationJob:
-    get:
-      summary: Update Replication Job
-      description: The update-replication-job API is used to change the settings of
-        your existing ReplicationJob created using CreateReplicationJob.
-      operationId: updateReplicationJob
-      x-api-path-slug: actionupdatereplicationjob-get
-      parameters:
-      - in: query
-        name: description
-        description: 'Type: String'
-        type: string
-      - in: query
-        name: frequency
-        description: 'Type: Integer'
-        type: string
-      - in: query
-        name: licenseType
-        description: 'Type: String'
-        type: string
-      - in: query
-        name: nextReplicationRunStartTime
-        description: 'Type: Timestamp'
-        type: string
-      - in: query
-        name: replicationJobId
-        description: 'Type: String'
-        type: string
-      - in: query
-        name: roleName
-        description: 'Type: String'
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Replication Jobs
----

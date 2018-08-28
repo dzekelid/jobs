@@ -6,46 +6,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth
 x-kinRank: "9"
 x-alexaRank: "4820"
 tags: Jobs
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Auth0 Jobs API Jobs Users Imports
-  x-api-slug: auth0-jobs-api
+- name: Auth0 Jobs API - Jobs Users Imports
+  x-api-slug: apiv2jobsusersimports-post
   description: jobs users imports.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
   humanURL: https://auth0.com/
-  baseURL: https://login.auth0.com//jobs//api/v2/jobs/users-imports
-  tags: Jobs,Users,Imports
+  baseURL: https://login.auth0.com//jobs
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsusersimports-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsusersimports-post-openapi.md
-- name: Auth0 Jobs API Jobs Job
-  x-api-slug: auth0-jobs-api
+- name: Auth0 Jobs API - Jobs Job
+  x-api-slug: apiv2jobsjob-id-get
   description: jobs job.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
   humanURL: https://auth0.com/
-  baseURL: https://login.auth0.com//jobs//api/v2/jobs/{job_id}
-  tags: Jobs
+  baseURL: https://login.auth0.com//jobs
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsjob-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsjob-id-get-openapi.md
-- name: Auth0 Jobs API
-  x-api-slug: auth0-jobs-api
-  description: The new way to solve Identity
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
-  humanURL: https://auth0.com/
-  baseURL: https://login.auth0.com//jobs
-  tags: Jobs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://attom.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://auth0.stack.network
 - type: x-blog
   url: https://auth0.com/blog/
 - type: x-blog-rss

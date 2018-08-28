@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Device Farm
 x-complete: 1
@@ -12,22 +11,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetJob:
-    get:
-      summary: Get Job
-      description: Gets information about a job.
-      operationId: getJob
-      x-api-path-slug: actiongetjob-get
-      parameters:
-      - in: query
-        name: arn
-        description: The jobs ARN
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Jobs
   /?Action=ListJobs:
     get:
       summary: List Jobs
@@ -49,4 +32,3 @@ paths:
           description: OK
       tags:
       - Jobs
----

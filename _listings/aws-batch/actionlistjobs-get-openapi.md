@@ -13,27 +13,22 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelJob:
+  /?Action=DescribeJobs:
     get:
-      summary: Cancel Job
-      description: Cancels jobs in an AWS Batch job queue.
-      operationId: cancelJob
-      x-api-path-slug: actioncanceljob-get
+      summary: Describe Jobs
+      description: Describes a list of AWS Batch jobs.
+      operationId: describeJobs
+      x-api-path-slug: actiondescribejobs-get
       parameters:
       - in: query
-        name: jobId
-        description: A list of up to 100 job IDs to cancel
-        type: string
-      - in: query
-        name: reason
-        description: A message to attach to the job that explains the reason for cancelling
-          it
+        name: jobs
+        description: A space-separated list of up to 100 job IDs
         type: string
       responses:
         200:
           description: OK
       tags:
-      - Jobs
+      - Job Definitions
   /?Action=ListJobs:
     get:
       summary: List Jobs
