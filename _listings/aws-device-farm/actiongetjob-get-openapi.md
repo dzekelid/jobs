@@ -29,6 +29,27 @@ paths:
           description: OK
       tags:
       - Jobs
+  /?Action=ListJobs:
+    get:
+      summary: List Jobs
+      description: Gets information about jobs.
+      operationId: listJobs
+      x-api-path-slug: actionlistjobs-get
+      parameters:
+      - in: query
+        name: arn
+        description: The jobs ARNs
+        type: string
+      - in: query
+        name: nextToken
+        description: An identifier that was returned from the previous call to this
+          operation, which can be used to return the next set of items in the list
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

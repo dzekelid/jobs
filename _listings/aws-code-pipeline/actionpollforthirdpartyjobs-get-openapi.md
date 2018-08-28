@@ -14,6 +14,42 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=PollForThirdPartyJobs:
+    get:
+      summary: Poll For Third Party Jobs
+      description: Determines whether there are any third party jobs for a job worker
+        to act on.
+      operationId: pollForThirdPartyJobs
+      x-api-path-slug: actionpollforthirdpartyjobs-get
+      parameters:
+      - in: query
+        name: actionTypeId
+        description: Represents information about an action type
+        type: string
+      - in: query
+        name: AssociationId
+        description: '[EC2-VPC] The association ID'
+        type: string
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,        and provides an error response
+        type: string
+      - in: query
+        name: maxBatchSize
+        description: The maximum number of jobs to return in a poll for jobs call
+        type: string
+      - in: query
+        name: PublicIp
+        description: '[EC2-Classic] The Elastic IP address'
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - PollThird
+      - Party
+      - Jobs
   /?Action=PollForJobs:
     get:
       summary: Poll For Jobs
@@ -61,21 +97,122 @@ paths:
           description: OK
       tags:
       - PollJobs
-  /?Action=PollForThirdPartyJobs:
+  /?Action=AcknowledgeJob:
     get:
-      summary: Poll For Third Party Jobs
-      description: Determines whether there are any third party jobs for a job worker
-        to act on.
-      operationId: pollForThirdPartyJobs
-      x-api-path-slug: actionpollforthirdpartyjobs-get
+      summary: Acknowledge Job
+      description: |-
+        Returns information about a specified job and whether that job has been received by
+                    the job worker.
+      operationId: acknowledgeJob
+      x-api-path-slug: actionacknowledgejob-get
       parameters:
       - in: query
-        name: actionTypeId
-        description: Represents information about an action type
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the      request, and provides an error response
         type: string
       - in: query
-        name: AssociationId
-        description: '[EC2-VPC] The association ID'
+        name: jobId
+        description: The unique system-generated ID of the job for which you want
+          to confirm            receipt
+        type: string
+      - in: query
+        name: nonce
+        description: A system-generated random number that AWS CodePipeline uses to
+          ensure that the job            is being worked on by only one job worker
+        type: string
+      - in: query
+        name: SnapshotId
+        description: The ID of the EBS snapshot
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Acknowledge
+      - Job
+  /?Action=AcknowledgeThirdPartyJob:
+    get:
+      summary: Acknowledge Third Party Job
+      description: Confirms a job worker has received the specified job.
+      operationId: acknowledgeThirdPartyJob
+      x-api-path-slug: actionacknowledgethirdpartyjob-get
+      parameters:
+      - in: query
+        name: clientToken
+        description: The clientToken portion of the clientId and clientToken pair
+          used to verify that            the calling entity is allowed access to the
+          job and its details
+        type: string
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the      request, and provides an error response
+        type: string
+      - in: query
+        name: jobId
+        description: The unique system-generated ID of the job
+        type: string
+      - in: query
+        name: nonce
+        description: A system-generated random number that AWS CodePipeline uses to
+          ensure that the job            is being worked on by only one job worker
+        type: string
+      - in: query
+        name: VolumeId
+        description: The ID of the volume
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Acknowledge
+      - Third
+      - Party
+      - Job
+  /?Action=GetJobDetails:
+    get:
+      summary: Get Job Details
+      description: Returns information about a job.
+      operationId: getJobDetails
+      x-api-path-slug: actiongetjobdetails-get
+      parameters:
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the      request, and provides an error response
+        type: string
+      - in: query
+        name: jobId
+        description: The unique system-generated ID for the job
+        type: string
+      - in: query
+        name: VolumeId
+        description: The ID of the volume
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Job
+      - Details
+  /?Action=GetThirdPartyJobDetails:
+    get:
+      summary: Get Third Party Job Details
+      description: Requests the details of a job for a third party action.
+      operationId: getThirdPartyJobDetails
+      x-api-path-slug: actiongetthirdpartyjobdetails-get
+      parameters:
+      - in: query
+        name: clientToken
+        description: The clientToken portion of the clientId and clientToken pair
+          used to verify that            the calling entity is allowed access to the
+          job and its details
+        type: string
+      - in: query
+        name: Domain
+        description: Set to vpc to allocate the address for use with instances in
+          a VPC
         type: string
       - in: query
         name: DryRun
@@ -83,20 +220,213 @@ paths:
           without actually making the request,        and provides an error response
         type: string
       - in: query
-        name: maxBatchSize
-        description: The maximum number of jobs to return in a poll for jobs call
-        type: string
-      - in: query
-        name: PublicIp
-        description: '[EC2-Classic] The Elastic IP address'
+        name: jobId
+        description: The unique system-generated ID used for identifying the job
         type: string
       responses:
         200:
           description: OK
       tags:
-      - PollThird
+      - Third
       - Party
-      - Jobs
+      - Job
+      - Details
+  /?Action=PutJobFailureResult:
+    get:
+      summary: Put Job Failure Result
+      description: Represents the failure of a job as returned to the pipeline by
+        a job worker.
+      operationId: putJobFailureResult
+      x-api-path-slug: actionputjobfailureresult-get
+      parameters:
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,       and provides an error response
+        type: string
+      - in: query
+        name: failureDetails
+        description: The details about the failure of a job
+        type: string
+      - in: query
+        name: jobId
+        description: The unique system-generated ID of the job that failed
+        type: string
+      - in: query
+        name: PublicIp
+        description: The Elastic IP address
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Put
+      - Job
+      - Failure
+      - Result
+  /?Action=PutJobSuccessResult:
+    get:
+      summary: Put Job Success Result
+      description: Represents the success of a job as returned to the pipeline by
+        a job worker.
+      operationId: putJobSuccessResult
+      x-api-path-slug: actionputjobsuccessresult-get
+      parameters:
+      - in: query
+        name: continuationToken
+        description: A token generated by a job worker, such as an AWS CodeDeploy
+          deployment ID, that a            successful job provides to identify a custom
+          action in progress
+        type: string
+      - in: query
+        name: currentRevision
+        description: The ID of the current revision of the artifact successfully worked
+          upon by the            job
+        type: string
+      - in: query
+        name: executionDetails
+        description: The execution details of the successful job, such as the actions
+          taken by the job            worker
+        type: string
+      - in: query
+        name: Ipv6AddressCount
+        description: The number of IPv6 addresses to assign to the network interface
+        type: string
+      - in: query
+        name: Ipv6Addresses.N
+        description: One or more specific IPv6 addresses to be assigned to the network
+          interface
+        type: string
+      - in: query
+        name: jobId
+        description: The unique system-generated ID of the job that succeeded
+        type: string
+      - in: query
+        name: NetworkInterfaceId
+        description: The ID of the network interface
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Put
+      - Job
+      - Success
+      - Result
+  /?Action=PutThirdPartyJobFailureResult:
+    get:
+      summary: Put Third Party Job Failure Result
+      description: |-
+        Represents the failure of a third party job as returned to the pipeline by a job
+                    worker.
+      operationId: putThirdPartyJobFailureResult
+      x-api-path-slug: actionputthirdpartyjobfailureresult-get
+      parameters:
+      - in: query
+        name: AllowReassignment
+        description: Indicates whether to allow an IP address that is already assigned
+          to another network interface or instance to be reassigned to the specified
+          network interface
+        type: string
+      - in: query
+        name: clientToken
+        description: The clientToken portion of the clientId and clientToken pair
+          used to verify that            the calling entity is allowed access to the
+          job and its details
+        type: string
+      - in: query
+        name: failureDetails
+        description: Represents information about failure details
+        type: string
+      - in: query
+        name: jobId
+        description: The ID of the job that failed
+        type: string
+      - in: query
+        name: NetworkInterfaceId
+        description: The ID of the network interface
+        type: string
+      - in: query
+        name: PrivateIpAddress.N
+        description: One or more IP addresses to be assigned as a secondary private
+          IP address to the network interface
+        type: string
+      - in: query
+        name: SecondaryPrivateIpAddressCount
+        description: The number of secondary IP addresses to assign to the network
+          interface
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Put
+      - Third
+      - Party
+      - Job
+      - Failure
+      - Result
+  /?Action=PutThirdPartyJobSuccessResult:
+    get:
+      summary: Put Third Party Job Success Result
+      description: |-
+        Represents the success of a third party job as returned to the pipeline by a job
+                    worker.
+      operationId: putThirdPartyJobSuccessResult
+      x-api-path-slug: actionputthirdpartyjobsuccessresult-get
+      parameters:
+      - in: query
+        name: clientToken
+        description: The clientToken portion of the clientId and clientToken pair
+          used to verify that            the calling entity is allowed access to the
+          job and its details
+        type: string
+      - in: query
+        name: continuationToken
+        description: A token generated by a job worker, such as an AWS CodeDeploy
+          deployment ID, that a            successful job provides to identify a partner
+          action in progress
+        type: string
+      - in: query
+        name: currentRevision
+        description: Represents information about a current revision
+        type: string
+      - in: query
+        name: DeviceIndex
+        description: The index of the device for the network interface attachment
+        type: string
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,        and provides an error response
+        type: string
+      - in: query
+        name: executionDetails
+        description: The details of the actions taken and results produced on an artifact
+          as it passes            through stages in the pipeline
+        type: string
+      - in: query
+        name: InstanceId
+        description: The ID of the instance
+        type: string
+      - in: query
+        name: jobId
+        description: The ID of the job that successfully completed
+        type: string
+      - in: query
+        name: NetworkInterfaceId
+        description: The ID of the network interface
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Put
+      - Third
+      - Party
+      - Job
+      - Success
+      - Result
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

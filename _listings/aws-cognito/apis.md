@@ -34,6 +34,76 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionlistuserimportjobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionlistuserimportjobs-get-openapi.md
+- name: AWS Cognito Merged API - Create User Import Job
+  x-api-slug: actioncreateuserimportjob-get
+  description: Creates the user import job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actioncreateuserimportjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actioncreateuserimportjob-get-openapi.md
+- name: AWS Cognito Merged API - Describe User Import Job
+  x-api-slug: actiondescribeuserimportjob-get
+  description: Describes the user import job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actiondescribeuserimportjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actiondescribeuserimportjob-get-openapi.md
+- name: AWS Cognito Merged API - List User Import Jobs
+  x-api-slug: actionlistuserimportjobs-get
+  description: Lists the user import jobs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionlistuserimportjobs-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionlistuserimportjobs-get-openapi.md
+- name: AWS Cognito Merged API - Start User Import Job
+  x-api-slug: actionstartuserimportjob-get
+  description: Starts the user import.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionstartuserimportjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionstartuserimportjob-get-openapi.md
+- name: AWS Cognito Merged API - Stop User Import Job
+  x-api-slug: actionstopuserimportjob-get
+  description: Stops the user import job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
+  humanURL: https://aws.amazon.com/cognito/
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionstopuserimportjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/actionstopuserimportjob-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.codedeploy.api.gallery.streamdata.io

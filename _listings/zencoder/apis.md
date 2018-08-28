@@ -4,117 +4,249 @@ x-slug: zencoder
 description: Audio and video encoding/transcoding software as a service. Convert videos
   online into web and mobile formats using our cloud encoding API.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
-x-kinRank: "8"
+x-kinRank: "7"
 x-alexaRank: "596400"
 tags: Jobs
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Zencoder API List Jobs
-  x-api-slug: zencoder-api
+- name: Zencoder - List Jobs
+  x-api-slug: jobs-get
   description: A list of jobs can be obtained by sending an HTTP GET request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//jobs
-  tags: Jobs
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobs-get-openapi.md
-- name: Zencoder API Create a Job
-  x-api-slug: zencoder-api
+- name: Zencoder - Create a Job
+  x-api-slug: jobs-post
   description: Encoding jobs are created by sending an HTTP POST request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//jobs
-  tags: Jobs
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobs-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobs-post-openapi.md
-- name: Zencoder API Get Job Details
-  x-api-slug: zencoder-api
+- name: Zencoder - Get Job Details
+  x-api-slug: jobsjob-id-get
   description: Get Job Details
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//jobs/{job_id}
-  tags: Jobs,Job,Id
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-id-get-openapi.md
-- name: Zencoder API Cancel a Job
-  x-api-slug: zencoder-api
+- name: Zencoder - Cancel a Job
+  x-api-slug: jobsjob-idcancel-put
   description: If you wish to cancel a job that has not yet finished processing you
     may send a request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//jobs/{job_id}/cancel
-  tags: Jobs,Job,Id,Cancel
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idcancel-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idcancel-put-openapi.md
-- name: Zencoder API Finish a LIve Job
-  x-api-slug: zencoder-api
+- name: Zencoder - Finish a LIve Job
+  x-api-slug: jobsjob-idfinish-put
   description: Finishes the input on a Live streaming job.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//jobs/{job_id}/finish
-  tags: Jobs,Job,Id,Finish
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idfinish-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idfinish-put-openapi.md
-- name: Zencoder API Job Progress
-  x-api-slug: zencoder-api
+- name: Zencoder - Job Progress
+  x-api-slug: jobsjob-idprogress-get
   description: 'The return will contain one or more of the following keys: state,
     input, outputs, and progress.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//jobs/{job_id}/progress
-  tags: Jobs,Job,Id,Progress
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idprogress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idprogress-get-openapi.md
-- name: Zencoder API Resubmit a Job
-  x-api-slug: zencoder-api
+- name: Zencoder - Resubmit a Job
+  x-api-slug: jobsjob-idresubmit-put
   description: If a job has failed processing you may request that it be attempted
     again.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//jobs/{job_id}/resubmit
-  tags: Jobs,Job,Id,Resubmit
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idresubmit-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idresubmit-put-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: Zencoders Video Encoding API allows you to seamlessly integrate your
-    application with Zencoders extremely fast and scalable encoding platform. Our
-    RESTful API is extensively documented with easy-to-use guides and detailed descriptions,
-    as well as thoroughly tested code libraries and code examples for every encoding
-    setting. Backed by an uptime SLA and live support with real encoding engineers,
-    integrating with Zencoder couldnt be easier.
+- name: Zencoder - Get Job Details
+  x-api-slug: jobsjob-id-get
+  description: Get Job Details
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
   baseURL: https://app.zencoder.com//api/v2
-  tags: Jobs
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-id-get-openapi.md
+- name: Zencoder - Cancel a Job
+  x-api-slug: jobsjob-idcancel-put
+  description: If you wish to cancel a job that has not yet finished processing you
+    may send a request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idcancel-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idcancel-put-openapi.md
+- name: Zencoder - Finish a LIve Job
+  x-api-slug: jobsjob-idfinish-put
+  description: Finishes the input on a Live streaming job.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idfinish-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idfinish-put-openapi.md
+- name: Zencoder - Job Progress
+  x-api-slug: jobsjob-idprogress-get
+  description: 'The return will contain one or more of the following keys: state,
+    input, outputs, and progress.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idprogress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idprogress-get-openapi.md
+- name: Zencoder - Resubmit a Job
+  x-api-slug: jobsjob-idresubmit-put
+  description: If a job has failed processing you may request that it be attempted
+    again.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idresubmit-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idresubmit-put-openapi.md
+- name: Zencoder - Resubmit a Job
+  x-api-slug: jobsjob-idresubmit-put
+  description: If a job has failed processing you may request that it be attempted
+    again.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idresubmit-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idresubmit-put-openapi.md
+- name: Zencoder - Job Progress
+  x-api-slug: jobsjob-idprogress-get
+  description: 'The return will contain one or more of the following keys: state,
+    input, outputs, and progress.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idprogress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idprogress-get-openapi.md
+- name: Zencoder - Finish a LIve Job
+  x-api-slug: jobsjob-idfinish-put
+  description: Finishes the input on a Live streaming job.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idfinish-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idfinish-put-openapi.md
+- name: Zencoder - Cancel a Job
+  x-api-slug: jobsjob-idcancel-put
+  description: If you wish to cancel a job that has not yet finished processing you
+    may send a request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idcancel-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-idcancel-put-openapi.md
+- name: Zencoder - Get Job Details
+  x-api-slug: jobsjob-id-get
+  description: Get Job Details
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
+  humanURL: http://zencoder.com/
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/jobsjob-id-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://youtube.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://zencoder.stack.network
 - type: x-base
   url: https://app.zencoder.com/api/
 - type: x-blog

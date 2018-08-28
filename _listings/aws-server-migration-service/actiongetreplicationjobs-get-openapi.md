@@ -39,6 +39,60 @@ paths:
           description: OK
       tags:
       - Replication Jobs
+  /?Action=CreateReplicationJob:
+    get:
+      summary: Create Replication Job
+      description: The create-replication-job API is used to create a ReplicationJob
+        to replicate a server on AWS.
+      operationId: createReplicationJob
+      x-api-path-slug: actioncreatereplicationjob-get
+      parameters:
+      - in: query
+        name: description
+        description: 'Type: String'
+        type: string
+      - in: query
+        name: frequency
+        description: 'Type: Integer'
+        type: string
+      - in: query
+        name: licenseType
+        description: 'Type: String'
+        type: string
+      - in: query
+        name: roleName
+        description: 'Type: String'
+        type: string
+      - in: query
+        name: seedReplicationTime
+        description: 'Type: Timestamp'
+        type: string
+      - in: query
+        name: serverId
+        description: 'Type: String'
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Replication Jobs
+  /?Action=DeleteReplicationJob:
+    get:
+      summary: Delete Replication Job
+      description: The delete-replication-job API is used to delete a ReplicationJob,
+        resulting in no further ReplicationRuns.
+      operationId: deleteReplicationJob
+      x-api-path-slug: actiondeletereplicationjob-get
+      parameters:
+      - in: query
+        name: replicationJobId
+        description: 'Type: String'
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Replication Jobs
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

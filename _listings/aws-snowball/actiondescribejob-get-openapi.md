@@ -111,6 +111,118 @@ paths:
           description: OK
       tags:
       - Jobs
+  /?Action=GetJobUnlockCode:
+    get:
+      summary: Get Job Unlock Code
+      description: Returns the UnlockCode code value for the specified job.
+      operationId: getJobUnlockCode
+      x-api-path-slug: actiongetjobunlockcode-get
+      parameters:
+      - in: query
+        name: JobId
+        description: The ID for the job that you want to get the UnlockCode value
+          for, for      example JID123e4567-e89b-12d3-a456-426655440000
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+  /?Action=ListJobs:
+    get:
+      summary: List Jobs
+      description: Returns an array of JobListEntry objects of the specified length.
+      operationId: listJobs
+      x-api-path-slug: actionlistjobs-get
+      parameters:
+      - in: query
+        name: MaxResults
+        description: The number of JobListEntry objects to return
+        type: string
+      - in: query
+        name: NextToken
+        description: HTTP requests are stateless
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+  /?Action=UpdateJob:
+    get:
+      summary: Update Job
+      description: |-
+        While a job's JobState value is New, you can update some of
+              the information associated with a job.
+      operationId: updateJob
+      x-api-path-slug: actionupdatejob-get
+      parameters:
+      - in: query
+        name: AddressId
+        description: The ID of the updated Address object
+        type: string
+      - in: query
+        name: Description
+        description: The updated description of this jobs JobMetadata object
+        type: string
+      - in: query
+        name: JobId
+        description: The job ID of the job that you want to update, for example        JID123e4567-e89b-12d3-a456-426655440000
+        type: string
+      - in: query
+        name: Notification
+        description: The new or updated Notification object
+        type: string
+      - in: query
+        name: Resources
+        description: The updated S3Resource object (for a single Amazon S3 bucket
+          or key      range), or the updated JobResource object (for multiple buckets
+          or key      ranges)
+        type: string
+      - in: query
+        name: RoleARN
+        description: The new role Amazon Resource Name (ARN) that you want to associate
+          with this job
+        type: string
+      - in: query
+        name: ShippingOption
+        description: The updated shipping option value of this jobs ShippingDetails      object
+        type: string
+      - in: query
+        name: SnowballCapacityPreference
+        description: The updated SnowballCapacityPreference of this jobs JobMetadata
+          object
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+  /?Action=ListClusterJobs:
+    get:
+      summary: List Cluster Jobs
+      description: Returns an array of JobListEntry objects of the specified length.
+      operationId: listClusterJobs
+      x-api-path-slug: actionlistclusterjobs-get
+      parameters:
+      - in: query
+        name: ClusterId
+        description: The 39-character ID for the cluster that you want to list, for
+          example        CID123e4567-e89b-12d3-a456-426655440000
+        type: string
+      - in: query
+        name: MaxResults
+        description: The number of JobListEntry objects to return
+        type: string
+      - in: query
+        name: NextToken
+        description: HTTP requests are stateless
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cluster Jobs
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

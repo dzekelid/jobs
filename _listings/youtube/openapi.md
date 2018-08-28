@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: YouTube
 x-complete: 1
@@ -175,4 +174,3 @@ paths:
       - Job
       - Reports
       - Report
----

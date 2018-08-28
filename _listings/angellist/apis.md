@@ -7,49 +7,46 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angell
 x-kinRank: "9"
 x-alexaRank: "2447"
 tags: Jobs
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AngelList Get Jobs
-  x-api-slug: angellist
+- name: AngelList - Get Jobs
+  x-api-slug: jobs-get
   description: Get jobs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
-  baseURL: https://api.angel.co//1///jobs
-  tags: Startups,Businesses,Jobs
+  baseURL: https://api.angel.co//1/
+  tags: Investing, Startup, Business, My API Stack, Angellist API Stack, Stack Network,
+    Startups, Media, Marketplace, internet, API Provider, Directories, Profiles, SDIO
+    Data, General Data, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/jobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/jobs-get-openapi.md
-- name: AngelList Get Job
-  x-api-slug: angellist
+- name: AngelList - Get Job
+  x-api-slug: jobsjob-id-get
   description: Get job.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
-  baseURL: https://api.angel.co//1///jobs/{job_id}
-  tags: Startups,Businesses,Jobs
+  baseURL: https://api.angel.co//1/
+  tags: Investing, Startup, Business, My API Stack, Angellist API Stack, Stack Network,
+    Startups, Media, Marketplace, internet, API Provider, Directories, Profiles, SDIO
+    Data, General Data, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/jobsjob-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/jobsjob-id-get-openapi.md
-- name: AngelList
-  x-api-slug: angellist
-  description: AngelList is where the world meets startups. Find a great startup job,
-    invest in a startup, or raise money
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
-  humanURL: http://angel.co
-  baseURL: https://api.angel.co//1/
-  tags: Jobs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/openapi.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
+- type: x-api-gallery
+  url: http://angellist.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://angellist.stack.network
 - type: x-base-url
   url: http://api.angel.co/
 - type: x-blog

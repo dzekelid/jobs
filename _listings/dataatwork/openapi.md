@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: DataAtWork
 x-complete: 1
@@ -52,4 +51,117 @@ paths:
       - Jobs
       - Associated
       - Skill
----
+  /jobs:
+    get:
+      summary: Job Titles and Descriptions
+      description: Retrieves the names, descriptions, and UUIDs of all job titles.
+      operationId: retrieves-the-names-descriptions-and-uuids-of-all-job-titles
+      x-api-path-slug: jobs-get
+      parameters:
+      - in: query
+        name: limit
+        description: Maximum number of items per page
+      - in: query
+        name: offset
+        description: Pagination offset
+      responses:
+        200:
+          description: OK
+      tags:
+      - Job
+      - Titles
+      - Descriptions
+  /jobs/{id}:
+    get:
+      summary: Job Title and Description
+      description: Retrieves the name, description, and UUID of a job by specifying
+        its O*NET SOC Code or UUID.
+      operationId: retrieves-the-name-description-and-uuid-of-a-job-by-specifying-its-onet-soc-code-or-uuid
+      x-api-path-slug: jobsid-get
+      parameters:
+      - in: path
+        name: id
+        description: The O*NET SOC Code or UUID of the job title to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - Job
+      - Title
+      - Description
+  /jobs/{id}/related_skills:
+    get:
+      summary: Skills Associated with a Job
+      description: Retrieves a collection of skills associated with a specified job.
+      operationId: retrieves-a-collection-of-skills-associated-with-a-specified-job
+      x-api-path-slug: jobsidrelated-skills-get
+      parameters:
+      - in: path
+        name: id
+        description: The UUID of the job to retrieve skills for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Skills
+      - Associated
+      - Job
+  /jobs/autocomplete:
+    get:
+      summary: Job Title Autocomplete
+      description: Retrieves the names, descriptions, and UUIDs of all job titles
+        matching a given search criteria.
+      operationId: retrieves-the-names-descriptions-and-uuids-of-all-job-titles-matching-a-given-search-criteria
+      x-api-path-slug: jobsautocomplete-get
+      parameters:
+      - in: query
+        name: begins_with
+        description: Find job titles beginning with the given text fragment
+      - in: query
+        name: contains
+        description: Find job titles containing the given text fragment
+      - in: query
+        name: ends_with
+        description: Find job titles ending with the given text fragment
+      responses:
+        200:
+          description: OK
+      tags:
+      - Job
+      - Title
+      - Autocomplete
+  /jobs/normalize:
+    get:
+      summary: Job Title Normalization
+      description: Retrieves the canonical job title for a synonymous job title
+      operationId: retrieves-the-canonical-job-title-for-a-synonymous-job-title
+      x-api-path-slug: jobsnormalize-get
+      parameters:
+      - in: query
+        name: job_title
+        description: Find the canonical job title(s) for jobs matching the given text
+          fragment
+      - in: query
+        name: limit
+        description: Maximumn number of job title synonyms to return
+      responses:
+        200:
+          description: OK
+      tags:
+      - Job
+      - Title
+      - Normalization
+  /jobs/unusual_titles:
+    get:
+      summary: Unusual Job Titles
+      description: Retrieves a list of unusual job titles and the UUIDs of their canonical
+        jobs.
+      operationId: retrieves-a-list-of-unusual-job-titles-and-the-uuids-of-their-canonical-jobs
+      x-api-path-slug: jobsunusual-titles-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Unusual
+      - Job
+      - Titles

@@ -13,6 +13,40 @@ produces:
 consumes:
 - application/json
 paths:
+  /jobs/users-imports:
+    post:
+      summary: Post Jobs Users Imports
+      description: Post jobs users imports.
+      operationId: postJobsUsersImports
+      x-api-path-slug: jobsusersimports-post
+      parameters:
+      - in: form
+        name: connection_name
+        description: The name of the connection to which users will be added
+      - in: form
+        name: users
+        description: A file containing the users to import
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+      - Immports
+  /jobs/{job_id}:
+    get:
+      summary: Get Jobs Job
+      description: Get jobs job.
+      operationId: getJobsJob
+      x-api-path-slug: jobsjob-id-get
+      parameters:
+      - in: path
+        name: job_id
+        description: The id of the job
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
   /api/v2/jobs/users-imports:
     post:
       summary: Jobs Users Imports

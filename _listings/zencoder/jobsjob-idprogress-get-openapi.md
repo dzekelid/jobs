@@ -123,6 +123,28 @@ paths:
       - Job
       - Id
       - Progress
+  /jobs/{job_id}/resubmit:
+    put:
+      summary: Resubmit a Job
+      description: If a job has failed processing you may request that it be attempted
+        again.
+      operationId: putJobsJobResubmit
+      x-api-path-slug: jobsjob-idresubmit-put
+      parameters:
+      - in: query
+        name: api_key
+        description: The API Key
+      - in: query
+        name: job_id
+        description: The job id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+      - Job
+      - Id
+      - Resubmit
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

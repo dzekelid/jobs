@@ -20,28 +20,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /jobs:
-    get:
-      summary: Get the jobs.
-      description: |-
-        Get a page of jobs. Use the query parameters to modify the behaviour of this endpoint.
-        __Minimum server version: 4.1__
-        ##### Permissions
-        Must have `manage_jobs` permission.
-      operationId: get-a-page-of-jobs-use-the-query-parameters-to-modify-the-behaviour-of-this-endpoint-minimum-server-
-      x-api-path-slug: jobs-get
-      parameters:
-      - in: query
-        name: page
-        description: The page to select
-      - in: query
-        name: per_page
-        description: The number of jobs per page
-      responses:
-        200:
-          description: OK
-      tags:
-      - Jobs.
   /jobs/type/{type}:
     get:
       summary: Get the jobs of the given type.

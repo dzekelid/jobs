@@ -8,6 +8,321 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Genability",
+			"x-api-slug": "genability",
+			"description": "Genability delivers the most accurate savings information for providers and consumers of solar, energy storage, electric vehicles and smart appliances.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/206-genability-api.jpg",
+			"humanURL": "http://genability.com/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/genability/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Panoptix",
+			"x-api-slug": "panoptix",
+			"description": "Johnson Controls is a global diversified technology and multi industrial leader serving a wide range of customers in more than 150 countries.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/236-panoptix.jpg",
+			"humanURL": "https://developer.panoptix.com/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/panoptix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tendril",
+			"x-api-slug": "tendril",
+			"description": "With more than a decade of expertise in energy and behavioral science, Tendril is applying its unique software platform to change the way energy products and services are marketed and consumed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/257-tendril.jpg",
+			"humanURL": "http://www.tendrilinc.com/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/tendril/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "U.S. Energy Information Administration",
+			"x-api-slug": "u-s--energy-information-administration",
+			"description": "The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/269-u-s--energy-information-administration.jpg",
+			"humanURL": "http://www.eia.gov",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/u-s--energy-information-administration/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WattzOn",
+			"x-api-slug": "wattzon",
+			"description": "WattzOn liberates data with two flagship products: MR BILL is a machine learning system that extracts data from structured documents such as invoices, utility bills, and healthcare records. LINK is the industry-leading vertical API for utility data, co...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/277-wattzon.jpg",
+			"humanURL": "http://www.wattzon.com/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/wattzon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Zencoder",
+			"x-api-slug": "zencoder",
+			"description": "Audio and video encoding/transcoding software as a service. Convert videos online into web and mobile formats using our cloud encoding API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg",
+			"humanURL": "http://zencoder.com/",
+			"baseURL": "https://app.zencoder.com//api/v2",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AngelList",
+			"x-api-slug": "angellist",
+			"description": "AngelList is where the world meets startups. Find a great startup job, invest in a startup, or raise money",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg",
+			"humanURL": "http://angel.co",
+			"baseURL": "https://api.angel.co//1/",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Brighter Planet",
+			"x-api-slug": "brighter-planet",
+			"description": "Custom quantitative sustainability applications",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/551-brighter-planet.jpg",
+			"humanURL": "http://impact.brighterplanet.com/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/brighter-planet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Elance",
+			"x-api-slug": "elance",
+			"description": "Find freelancers and freelance jobs on Upwork - the worlds largest online workplace where savvy businesses and professional freelancers go to work!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/585-elance.jpg",
+			"humanURL": "https://www.elance.com/p/api2",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/elance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"x-api-slug": "national-renewable-energy-laboratory",
+			"description": "The National Renewable Energy Laboratory (NREL) is the nations primary laboratory for renewable energy and energy efficiency research and development (R&D).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg",
+			"humanURL": "http://nrel.gov",
+			"baseURL": "https://developer.nrel.gov//api/transportation-incentives-laws",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/national-renewable-energy-laboratory/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Resfly",
+			"x-api-slug": "resfly",
+			"description": "Create and post jobs to your career portal and multiple job boards, build custom questionnaires for applicants, and track the effectiveness of your hiring.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1272-resfly.jpg",
+			"humanURL": "http://www.resfly.com/docs-api-introduction/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/resfly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Copify",
+			"x-api-slug": "copify",
+			"description": "Quick, quality content from approved UK copywriters. Order online in seconds!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1320-copify.jpg",
+			"humanURL": "http://uk.copify.com",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/copify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clean Power Research",
+			"x-api-slug": "clean-power-research",
+			"description": "Clean Power Research provides cloud services that inform business decisions, engage customers & streamline operations for utilities and the energy industry.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1395-clean-power-research.jpg",
+			"humanURL": "http://www.cleanpower.com/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/clean-power-research/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VetSuccess",
+			"x-api-slug": "vetsuccess",
+			"description": "",
+			"image": "",
+			"humanURL": "http://vetsuccess.gov/employers",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/vetsuccess/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EasyCron",
+			"x-api-slug": "easycron",
+			"description": "EasyCron provides the most stable Cron Job Services. Here you can schedule cron jobs with execution logs, Email notifications, run time predictions and a bunch of other featuers!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1806-easycron.jpg",
+			"humanURL": "http://easycron.com",
+			"baseURL": "https://www.easycron.com//rest",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/easycron/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "moltin",
+			"x-api-slug": "moltin",
+			"description": "The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png",
+			"humanURL": "https://moltin.com",
+			"baseURL": "https://api.moltin.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/moltin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Json Resume",
+			"x-api-slug": "json-resume",
+			"description": "Json R&eacute;sum&eacute; is a community driven open source initiative to create a JSON based standard for r&eacute;sum&eacute;s. There is no reason why there cant be a common standard for writing a r&eacute;sum&eacute; that can be extended with an ecosystem of open source tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/json-resume.png",
+			"humanURL": "http://jsonresume.org/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/json-resume/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "General Services Administration",
+			"x-api-slug": "general-services-administration",
+			"description": "The General Services Administration (GSA) is an independent agency of the United States government, established in 1949 to help manage and support the basic functioning of federal agencies. The GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies, and other management tasks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/280px-US-GeneralServicesAdministration-Seal-Alt.svg.png",
+			"humanURL": "http://www.gsa.gov",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/general-services-administration/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "Auth0",
 			"x-api-slug": "auth0",
 			"description": "The new way to solve Identity",
@@ -23,6 +338,66 @@
 			]
 		},
 		{
+			"name": "YouTube",
+			"x-api-slug": "youtube",
+			"description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg",
+			"humanURL": "https://www.youtube.com/",
+			"baseURL": "https://www.googleapis.com//youtube/v1",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apica",
+			"x-api-slug": "apica",
+			"description": "Apicas performance testing and monitoring solutions provide critical peak performance data and 24/7 monitoring of applications and sites around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg",
+			"humanURL": "https://www.apicasystem.com",
+			"baseURL": ":///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/apica/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataAtWork",
+			"x-api-slug": "dataatwork",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2016-10-12 at 11.19.25 PM.png",
+			"humanURL": "http://www.dataatwork.org/",
+			"baseURL": "://api.dataatwork.org//v1",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "AWS Batch",
 			"x-api-slug": "aws-batch",
 			"description": "AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted. With AWS Batch, there is no need to install and manage batch computing software or server clusters that you use to run your jobs, allowing you to focus on analyzing results and solving problems. AWS Batch plans, schedules, and executes your batch computing workloads across the full range of AWS compute services and features, such as Amazon EC2 and Spot Instances.",
@@ -34,6 +409,21 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Glacier",
+			"x-api-slug": "aws-glacier",
+			"description": "Amazon Glacier is a secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup. Customers can reliably store large or small amounts of data for as little as $0.004 per gigabyte per month, a significant savings compared to on-premises solutions. To keep costs low yet suitable for varying retrieval needs, Amazon Glacier provides three options for access to archives, from a few minutes to several hours.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png",
+			"humanURL": "https://aws.amazon.com/glacier/",
+			"baseURL": ":///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-glacier/openapi.md"
 				}
 			]
 		},
@@ -83,6 +473,21 @@
 			]
 		},
 		{
+			"name": "AWS Elastic MapReduce",
+			"x-api-slug": "aws-elastic-mapreduce",
+			"description": "Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.Amazon EMR securely and reliably handles a broad set of big data use cases, including log analysis, web indexing, data transformations (ETL), machine learning, financial analysis, scientific simulation, and bioinformatics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png",
+			"humanURL": "https://aws.amazon.com/emr/",
+			"baseURL": ":///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-elastic-mapreduce/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "AWS Cognito",
 			"x-api-slug": "aws-cognito",
 			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
@@ -94,6 +499,21 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Pinpoint",
+			"x-api-slug": "aws-pinpoint",
+			"description": "Amazon Pinpoint makes it easy to run targeted campaigns to drive user engagement in mobile apps. Amazon Pinpoint helps you understand user behavior, define which users to target, determine which messages to send, schedule the best time to deliver the messages, and then track the results of your campaign.Targeted push notifications based on app usage trends and user behavior have become a popular approach for mobile app user engagement because response rates are often several times higher than tradition email marketing campaigns. By using targeted push notifications, you can increase message relevance and effectiveness, measure engagement, and continually improve your campaigns.Getting started with Amazon Pinpoint is easy. First, AWS Mobile Hub guides you through the process to integrate the AWS Mobile SDK with your app. Next, you define your target segments, campaign message, and specify the delivery schedule. Once your campaign is running, Pinpoint provides metrics so you can run analytics and track the impact of your campaign.With Amazon Pinpoint, there are no upfront setup costs, and no fixed monthly cost. You only pay for the number of users your campaign targets, the messages you send, and the events you collect, so you can start small and scale as your application grows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg",
+			"humanURL": "https://aws.amazon.com/pinpoint/",
+			"baseURL": ":///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-pinpoint/openapi.md"
 				}
 			]
 		},
@@ -113,6 +533,231 @@
 			]
 		},
 		{
+			"name": "AWS Simple Queue Service",
+			"x-api-slug": "aws-simple-queue-service",
+			"description": "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed message queuing service. Amazon SQS makes it simple and cost-effective to decouple the components of a cloud application. You can use Amazon SQS to transmit any volume of data, without losing messages or requiring other services to be always available. Amazon SQS includesstandard queueswith high throughput and at-least-once processing, andFIFO queuesthat provide FIFO (first-in, first-out) delivery and exactly-once processing. With Amazon SQS, you can offload the administrative burden of operating and scaling a highly available messaging cluster, while paying a low price for only what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png",
+			"humanURL": "https://aws.amazon.com/sqs/",
+			"baseURL": ":///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-simple-queue-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "USAJobs API",
+			"x-api-slug": "usajobs-api",
+			"description": "Federal, state, and local government agencies are hiring and have thousands of job openings across the country, posted on USAJobs.gov and local government jobs sites. This Jobs API allows you to tap into a list of current jobs openings with the government. Jobs are searchable by keyword, location, agency, schedule, or any combination of these.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usajobs.png",
+			"humanURL": "https://search.digitalgov.gov/developer/jobs.html",
+			"baseURL": "https://api.usa.gov//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/usajobs-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Biquery",
+			"x-api-slug": "google-biquery",
+			"description": "BigQuery is Googles fully managed, petabyte scale, low cost enterprise data warehouse for analytics. BigQuery is serverless. There is no infrastructure to manage and you dont need a database administrator, so you can focus on analyzing data to find meaningful insights using familiar SQL. BigQuery is a powerful Big Data analytics platform used by all types of organizations, from startups to Fortune 500 companies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png",
+			"humanURL": "https://cloud.google.com/bigquery/",
+			"baseURL": "://www.googleapis.com//bigquery/v2",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-biquery/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Dataflow",
+			"x-api-slug": "google-dataflow",
+			"description": "Dataflow is a unified programming model and a managed service for developing and executing a wide range of data processing patterns including ETL, batch computation, and continuous computation. Cloud Dataflow frees you from operational tasks like resource management and performance optimization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-dataflow.jpeg",
+			"humanURL": "https://cloud.google.com/dataflow/",
+			"baseURL": "://dataflow.googleapis.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-dataflow/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"x-api-slug": "google-cloud-dataproc",
+			"description": "Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig, and Apache Hive service, to easily process big datasets at low cost. Control your costs by quickly creating managed clusters of any size and turning them off when youre done. Cloud Dataproc integrates across Google Cloud Platform products, giving you a powerful and complete data processing platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png",
+			"humanURL": "https://cloud.google.com/dataproc/",
+			"baseURL": "://dataproc.googleapis.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-cloud-dataproc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Machine Learning Engine",
+			"x-api-slug": "google-cloud-machine-learning-engine",
+			"description": "Google Cloud Machine Learning Engine is a managed service that enables you to easily build machine learning models, that work on any type of data, of any size. Create your model with the powerful TensorFlow framework that powers many Google products, from Google Photos to Google Cloud Speech. Build models of any size with our managed scalable infrastructure. Your trained model is immediately available for use with our global prediction platform that can support thousands of users and TBs of data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png",
+			"humanURL": "https://cloud.google.com/ml-engine/",
+			"baseURL": "://ml.googleapis.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-cloud-machine-learning-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Storage",
+			"x-api-slug": "google-cloud-storage",
+			"description": "Google Cloud Storage is unified object storage for developers and enterprises, from live data serving to data analytics/ML to data archiving. Google Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Google Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png",
+			"humanURL": "https://cloud.google.com/storage/",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-cloud-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Task Queue",
+			"x-api-slug": "google-task-queue",
+			"description": "The Task Queue API lets applications perform work, called tasks, asynchronously outside of a user request. If an app needs to execute work in the background, it adds tasks to task queues. The tasks are executed later, by scalable App Engine worker services in your application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hands-on-app-engine-11-638.jpg",
+			"humanURL": "https://cloud.google.com/appengine/docs/standard/python/taskqueue/",
+			"baseURL": "://www.googleapis.com//taskqueue/v1beta2/projects",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-task-queue/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"x-api-slug": "azure-data-lake-analytics",
+			"description": "The Data Lake analytics service is a new distributed analytics service built on Apache YARN that dynamically scales so you can focus on your business goals, not on distributed infrastructure. Instead of deploying, configuring and tuning hardware, you write queries to transform your data and extract valuable insights. The analytics service can handle jobs of any scale instantly by simply setting the dial for how much power you need. You only pay for your job when it is running making it cost-effective. The analytics service supports Azure Active Directory letting you simply manage access and roles, integrated with your on-premises identity system. It also includes U-SQL, a language that unifies the benefits of SQL with the expressive power of user code. U-SQL&rsquo;s scalable distributed runtime enables you to efficiently analyze data in the store and across SQL Servers in Azure, Azure SQL Database and Azure SQL Data Warehouse.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/",
+			"baseURL": ":////",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-data-lake-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Event Hubs",
+			"x-api-slug": "azure-event-hubs",
+			"description": "Azure Event Hubs is a hyper-scale telemetry ingestion service that collects, transforms, and stores millions of events. As a distributed streaming platform, it gives you low latency and configurable time retention, which enables you to ingress massive amounts of telemetry into the cloud and read the data from multiple applications using publish-subscribe semantics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/event-hubs/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-event-hubs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Scheduler",
+			"x-api-slug": "azure-scheduler",
+			"description": "Azure Scheduler lets you create jobs in the cloud that invoke services inside and outside of Azure&mdash;such as calling HTTP/S endpoints or posting messages to Azure Storage queues, or Azure Service Bus queues or topics. Run jobs right away, on a recurring schedule, or at some point in the future.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-scheduler-create.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/scheduler/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-scheduler/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Storage",
+			"x-api-slug": "azure-storage",
+			"description": "Azure Storage offers non-relational data storage including Blob Storage, Table Storage, Queue Storage, and Files.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/storage/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AppVeyor CI",
+			"x-api-slug": "appveyor-ci",
+			"description": "We provide continuous integration tools for Windows developers. The service is offered for free to open-source projects, we offer subscriptions for private projects and AppVeyor Enterprise installations on customer premises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg",
+			"humanURL": "http://appveyor.com",
+			"baseURL": "https://ci.appveyor.com//api",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/appveyor-ci/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "Avaza",
 			"x-api-slug": "avaza",
 			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
@@ -126,17 +771,196 @@
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/avaza/openapi.md"
 				}
 			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Botify",
+			"x-api-slug": "botify",
+			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg",
+			"humanURL": "http://www.botify.com",
+			"baseURL": "https://api.botify.com//v1",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/botify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Jobs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dezrez/openapi.md"
+				}
+			]
 		}
 	],
 	"tags": "Jobs",
 	"include": [
 		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "Genability",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/genability/apis.yaml"
+		},
+		{
+			"name": "Panoptix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/panoptix/apis.yaml"
+		},
+		{
+			"name": "Tendril",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/tendril/apis.yaml"
+		},
+		{
+			"name": "U.S. Energy Information Administration",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/u-s--energy-information-administration/apis.yaml"
+		},
+		{
+			"name": "WattzOn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/wattzon/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Zencoder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/zencoder/apis.yaml"
+		},
+		{
+			"name": "AngelList",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/angellist/apis.yaml"
+		},
+		{
+			"name": "Brighter Planet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/brighter-planet/apis.yaml"
+		},
+		{
+			"name": "Elance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/elance/apis.yaml"
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/national-renewable-energy-laboratory/apis.yaml"
+		},
+		{
+			"name": "Resfly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/resfly/apis.yaml"
+		},
+		{
+			"name": "Copify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/copify/apis.yaml"
+		},
+		{
+			"name": "Clean Power Research",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/clean-power-research/apis.yaml"
+		},
+		{
+			"name": "VetSuccess",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/vetsuccess/apis.yaml"
+		},
+		{
+			"name": "EasyCron",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/easycron/apis.yaml"
+		},
+		{
+			"name": "moltin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/moltin/apis.yaml"
+		},
+		{
+			"name": "Json Resume",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/json-resume/apis.yaml"
+		},
+		{
+			"name": "General Services Administration",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/general-services-administration/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/data-gov/apis.yaml"
+		},
+		{
 			"name": "Auth0",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apis.yaml"
 		},
 		{
+			"name": "YouTube",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/apis.yaml"
+		},
+		{
+			"name": "Apica",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/apica/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "DataAtWork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dataatwork/apis.yaml"
+		},
+		{
 			"name": "AWS Batch",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-batch/apis.yaml"
+		},
+		{
+			"name": "AWS Glacier",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-glacier/apis.yaml"
 		},
 		{
 			"name": "AWS Snowball",
@@ -151,16 +975,104 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/apis.yaml"
 		},
 		{
+			"name": "AWS Elastic MapReduce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-elastic-mapreduce/apis.yaml"
+		},
+		{
 			"name": "AWS Cognito",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Pinpoint",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-pinpoint/apis.yaml"
 		},
 		{
 			"name": "AWS Device Farm",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/apis.yaml"
 		},
 		{
+			"name": "AWS Simple Queue Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-simple-queue-service/apis.yaml"
+		},
+		{
+			"name": "USAJobs API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/usajobs-api/apis.yaml"
+		},
+		{
+			"name": "Google Biquery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-biquery/apis.yaml"
+		},
+		{
+			"name": "Google Dataflow",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-dataflow/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-cloud-dataproc/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Machine Learning Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-cloud-machine-learning-engine/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-cloud-storage/apis.yaml"
+		},
+		{
+			"name": "Google Task Queue",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/google-task-queue/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-data-lake-analytics/apis.yaml"
+		},
+		{
+			"name": "Azure Event Hubs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-event-hubs/apis.yaml"
+		},
+		{
+			"name": "Azure Scheduler",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-scheduler/apis.yaml"
+		},
+		{
+			"name": "Azure Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/azure-storage/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "AppVeyor CI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/appveyor-ci/apis.yaml"
+		},
+		{
 			"name": "Avaza",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Botify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/botify/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/dezrez/apis.yaml"
 		}
 	]
 }

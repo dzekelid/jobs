@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Data.Gov
 x-complete: 1
@@ -125,4 +124,38 @@ paths:
       tags:
       - Workers
       - Jobs
----
+  /harvest/job/{ident}/:
+    get:
+      summary: Get Harvest Job
+      description: List all jobs for a given source
+      operationId: getHarvestJobEnt
+      x-api-path-slug: harvestjobident-get
+      parameters:
+      - in: path
+        name: ident
+      - in: query
+        name: page
+        description: The page to fetch
+      - in: query
+        name: page_size
+        description: The page size to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Harvest
+      - Job
+      - Ent
+  /harvest/job_status:
+    get:
+      summary: Get Harvest Job Status
+      description: List all available harvesters
+      operationId: getHarvestJobStatus
+      x-api-path-slug: harvestjob-status-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Harvest
+      - Job
+      - Status

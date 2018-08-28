@@ -107,6 +107,74 @@ paths:
       - V1
       - Jobs
       - Job
+  /v1/jobs/{jobId}/reports:
+    get:
+      summary: Get Jobs Job Reports
+      description: |-
+        Lists reports created by a specific job.
+        Returns NOT_FOUND if the job does not exist.
+      operationId: getV1JobsJobReports
+      x-api-path-slug: v1jobsjobidreports-get
+      parameters:
+      - in: query
+        name: createdAfter
+        description: If set, only reports created after the specified date/time are
+          returned
+      - in: path
+        name: jobId
+        description: The ID of the job
+      - in: query
+        name: onBehalfOfContentOwner
+        description: The content owners external ID on which behalf the user is acting
+          on
+      - in: query
+        name: pageSize
+        description: Requested page size
+      - in: query
+        name: pageToken
+        description: A token identifying a page of results the server should return
+      - in: query
+        name: startTimeAtOrAfter
+        description: If set, only reports whose start time is greater than or equal
+          thespecified date/time are returned
+      - in: query
+        name: startTimeBefore
+        description: If set, only reports whose start time is smaller than the specifieddate/time
+          are returned
+      responses:
+        200:
+          description: OK
+      tags:
+      - V1
+      - Jobs
+      - Job
+      - Reports
+  /v1/jobs/{jobId}/reports/{reportId}:
+    get:
+      summary: Get Jobs Job Reports Report
+      description: Gets the metadata of a specific report.
+      operationId: getV1JobsJobReportsReport
+      x-api-path-slug: v1jobsjobidreportsreportid-get
+      parameters:
+      - in: path
+        name: jobId
+        description: The ID of the job
+      - in: query
+        name: onBehalfOfContentOwner
+        description: The content owners external ID on which behalf the user is acting
+          on
+      - in: path
+        name: reportId
+        description: The ID of the report to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - V1
+      - Jobs
+      - Job
+      - Reports
+      - Report
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

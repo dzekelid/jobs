@@ -11,6 +11,58 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Auth0 API - Post Jobs Users Imports
+  x-api-slug: jobsusersimports-post
+  description: Post jobs users imports.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com/api/v2/
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/jobsusersimports-post-openapi.md
+- name: Auth0 API - Get Jobs Job
+  x-api-slug: jobsjob-id-get
+  description: Get jobs job.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com/api/v2/
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/jobsjob-id-get-openapi.md
+- name: Auth0 Jobs API - Jobs Users Imports
+  x-api-slug: apiv2jobsusersimports-post
+  description: jobs users imports.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com//jobs
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsusersimports-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsusersimports-post-openapi.md
+- name: Auth0 Jobs API - Jobs Job
+  x-api-slug: apiv2jobsjob-id-get
+  description: jobs job.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com//jobs
+  tags: Authentication, OAuth, Target, Service Level Agreement, Stack Network, Technology,
+    SaaS, Enterprise, API Service Provider, Identities, Profiles, Relative Data, Service
+    API, Authentication, Users
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsjob-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/auth0/apiv2jobsjob-id-get-openapi.md
 - name: Auth0 Jobs API - Jobs Users Imports
   x-api-slug: apiv2jobsusersimports-post
   description: jobs users imports.

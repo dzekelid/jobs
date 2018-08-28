@@ -14,6 +14,31 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=GetReplicationJobs:
+    get:
+      summary: Get Replication Jobs
+      description: The get-replication-jobs API will return all of your ReplicationJobs
+        and their details.
+      operationId: getReplicationJobs
+      x-api-path-slug: actiongetreplicationjobs-get
+      parameters:
+      - in: query
+        name: maxResults
+        description: 'Type: Integer'
+        type: string
+      - in: query
+        name: nextToken
+        description: 'Type: String'
+        type: string
+      - in: query
+        name: replicationJobId
+        description: 'Type: String'
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Replication Jobs
   /?Action=CreateReplicationJob:
     get:
       summary: Create Replication Job
@@ -68,13 +93,13 @@ paths:
           description: OK
       tags:
       - Replication Jobs
-  /?Action=GetReplicationJobs:
+  /?Action=GetReplicationRuns:
     get:
-      summary: Get Replication Jobs
-      description: The get-replication-jobs API will return all of your ReplicationJobs
-        and their details.
-      operationId: getReplicationJobs
-      x-api-path-slug: actiongetreplicationjobs-get
+      summary: Get Replication Runs
+      description: The get-replication-runs API will return all ReplicationRuns for
+        a given ReplicationJob.
+      operationId: getReplicationRuns
+      x-api-path-slug: actiongetreplicationruns-get
       parameters:
       - in: query
         name: maxResults
@@ -92,7 +117,7 @@ paths:
         200:
           description: OK
       tags:
-      - Replication Jobs
+      - Replication Runs
   /?Action=UpdateReplicationJob:
     get:
       summary: Update Replication Job

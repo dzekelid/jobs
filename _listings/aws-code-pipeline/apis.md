@@ -21,6 +21,147 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Code Pipeline API - Poll For Third Party Jobs
+  x-api-slug: actionpollforthirdpartyjobs-get
+  description: Determines whether there are any third party jobs for a job worker
+    to act on.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionpollforthirdpartyjobs-get-openapi.md
+- name: AWS Code Pipeline API - Poll For Jobs
+  x-api-slug: actionpollforjobs-get
+  description: Returns information about any jobs for AWS CodePipeline to act upon.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionpollforjobs-get-openapi.md
+- name: AWS Code Pipeline API - Acknowledge Job
+  x-api-slug: actionacknowledgejob-get
+  description: |-
+    Returns information about a specified job and whether that job has been received by
+                the job worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgejob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgejob-get-openapi.md
+- name: AWS Code Pipeline API - Acknowledge Third Party Job
+  x-api-slug: actionacknowledgethirdpartyjob-get
+  description: Confirms a job worker has received the specified job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgethirdpartyjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgethirdpartyjob-get-openapi.md
+- name: AWS Code Pipeline API - Get Job Details
+  x-api-slug: actiongetjobdetails-get
+  description: Returns information about a job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actiongetjobdetails-get-openapi.md
+- name: AWS Code Pipeline API - Get Third Party Job Details
+  x-api-slug: actiongetthirdpartyjobdetails-get
+  description: Requests the details of a job for a third party action.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actiongetthirdpartyjobdetails-get-openapi.md
+- name: AWS Code Pipeline API - Put Job Failure Result
+  x-api-slug: actionputjobfailureresult-get
+  description: Represents the failure of a job as returned to the pipeline by a job
+    worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobfailureresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobfailureresult-get-openapi.md
+- name: AWS Code Pipeline API - Put Job Success Result
+  x-api-slug: actionputjobsuccessresult-get
+  description: Represents the success of a job as returned to the pipeline by a job
+    worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobsuccessresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobsuccessresult-get-openapi.md
+- name: AWS Code Pipeline API - Put Third Party Job Failure Result
+  x-api-slug: actionputthirdpartyjobfailureresult-get
+  description: |-
+    Represents the failure of a third party job as returned to the pipeline by a job
+                worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobfailureresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobfailureresult-get-openapi.md
+- name: AWS Code Pipeline API - Put Third Party Job Success Result
+  x-api-slug: actionputthirdpartyjobsuccessresult-get
+  description: |-
+    Represents the success of a third party job as returned to the pipeline by a job
+                worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobsuccessresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobsuccessresult-get-openapi.md
 - name: AWS Code Pipeline API - Poll For Jobs
   x-api-slug: actionpollforjobs-get
   description: Returns information about any jobs for AWS CodePipeline to act upon.
@@ -46,6 +187,122 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionpollforthirdpartyjobs-get-openapi.md
+- name: AWS Code Pipeline API - Acknowledge Job
+  x-api-slug: actionacknowledgejob-get
+  description: |-
+    Returns information about a specified job and whether that job has been received by
+                the job worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgejob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgejob-get-openapi.md
+- name: AWS Code Pipeline API - Acknowledge Third Party Job
+  x-api-slug: actionacknowledgethirdpartyjob-get
+  description: Confirms a job worker has received the specified job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgethirdpartyjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionacknowledgethirdpartyjob-get-openapi.md
+- name: AWS Code Pipeline API - Get Job Details
+  x-api-slug: actiongetjobdetails-get
+  description: Returns information about a job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actiongetjobdetails-get-openapi.md
+- name: AWS Code Pipeline API - Get Third Party Job Details
+  x-api-slug: actiongetthirdpartyjobdetails-get
+  description: Requests the details of a job for a third party action.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actiongetthirdpartyjobdetails-get-openapi.md
+- name: AWS Code Pipeline API - Put Job Failure Result
+  x-api-slug: actionputjobfailureresult-get
+  description: Represents the failure of a job as returned to the pipeline by a job
+    worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobfailureresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobfailureresult-get-openapi.md
+- name: AWS Code Pipeline API - Put Job Success Result
+  x-api-slug: actionputjobsuccessresult-get
+  description: Represents the success of a job as returned to the pipeline by a job
+    worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobsuccessresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputjobsuccessresult-get-openapi.md
+- name: AWS Code Pipeline API - Put Third Party Job Failure Result
+  x-api-slug: actionputthirdpartyjobfailureresult-get
+  description: |-
+    Represents the failure of a third party job as returned to the pipeline by a job
+                worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobfailureresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobfailureresult-get-openapi.md
+- name: AWS Code Pipeline API - Put Third Party Job Success Result
+  x-api-slug: actionputthirdpartyjobsuccessresult-get
+  description: |-
+    Represents the success of a third party job as returned to the pipeline by a job
+                worker.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobsuccessresult-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-code-pipeline/actionputthirdpartyjobsuccessresult-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.cloudwatch.api.gallery.streamdata.io

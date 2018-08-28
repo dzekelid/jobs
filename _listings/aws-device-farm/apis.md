@@ -14,6 +14,43 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Device Farm API - Get Job
+  x-api-slug: actiongetjob-get
+  description: Gets information about a job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/actiongetjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/actiongetjob-get-openapi.md
+- name: AWS Device Farm API - List Jobs
+  x-api-slug: actionlistjobs-get
+  description: Gets information about jobs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/actionlistjobs-get-openapi.md
+- name: AWS Device Farm API - Get Job
+  x-api-slug: actiongetjob-get
+  description: Gets information about a job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/actiongetjob-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/aws-device-farm/actiongetjob-get-openapi.md
 - name: AWS Device Farm API - List Jobs
   x-api-slug: actionlistjobs-get
   description: Gets information about jobs.

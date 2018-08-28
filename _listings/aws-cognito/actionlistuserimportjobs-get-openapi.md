@@ -40,6 +40,53 @@ paths:
       tags:
       - Users
       - Imports
+  /?Action=CreateUserImportJob:
+    get:
+      summary: Create User Import Job
+      description: Creates the user import job.
+      operationId: createUserImportJob
+      x-api-path-slug: actioncreateuserimportjob-get
+      parameters:
+      - in: query
+        name: CloudWatchLogsRoleArn
+        description: The role ARN for the Amazon CloudWatch Logging role for the user
+          import            job
+        type: string
+      - in: query
+        name: JobName
+        description: The job name for the user import job
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool that the users are being imported            into
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Imports
+  /?Action=DescribeUserImportJob:
+    get:
+      summary: Describe User Import Job
+      description: Describes the user import job.
+      operationId: describeUserImportJob
+      x-api-path-slug: actiondescribeuserimportjob-get
+      parameters:
+      - in: query
+        name: JobId
+        description: The job ID for the user import job
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool that the users are being imported            into
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Imports
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

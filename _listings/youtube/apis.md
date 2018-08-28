@@ -7,95 +7,216 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: Jobs
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Get Jobs
-  x-api-slug: youtube
+- name: YouTube - Get Jobs
+  x-api-slug: v1jobs-get
   description: Lists jobs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs
-  tags: V1, Jobs
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobs-get-openapi.md
-- name: Youtube Add Jobs
-  x-api-slug: youtube
+- name: YouTube - Add Jobs
+  x-api-slug: v1jobs-post
   description: Creates a job and returns it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs
-  tags: V1, Jobs
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobs-post-openapi.md
-- name: Youtube Delete Jobs Job
-  x-api-slug: youtube
+- name: YouTube - Delete Jobs Job
+  x-api-slug: v1jobsjobid-delete
   description: Delete v1 jobs job
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs/{jobId}
-  tags: V1, Jobs, Job
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-delete-openapi.md
-- name: Youtube Get Jobs Job
-  x-api-slug: youtube
+- name: YouTube - Get Jobs Job
+  x-api-slug: v1jobsjobid-get
   description: Get v1 jobs job
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs/{jobId}
-  tags: V1, Jobs, Job
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-get-openapi.md
-- name: Youtube Get Jobs Job Reports
-  x-api-slug: youtube
+- name: YouTube - Get Jobs Job Reports
+  x-api-slug: v1jobsjobidreports-get
   description: |-
     Lists reports created by a specific job.
     Returns NOT_FOUND if the job does not exist.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs/{jobId}/reports
-  tags: V1, Jobs, Job, Reports
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreports-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreports-get-openapi.md
-- name: Youtube Get Jobs Job Reports Report
-  x-api-slug: youtube
+- name: YouTube - Get Jobs Job Reports Report
+  x-api-slug: v1jobsjobidreportsreportid-get
   description: Gets the metadata of a specific report.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//v1/jobs/{jobId}/reports/{reportId}
-  tags: V1, Jobs, Job, Reports, Report
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreportsreportid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreportsreportid-get-openapi.md
-- name: Youtube
-  x-api-slug: youtube
-  description: Enjoy the videos and music you love, upload original content, and share
-    it all with friends, family, and the world on YouTube.
+- name: YouTube - Delete Jobs Job
+  x-api-slug: v1jobsjobid-delete
+  description: Delete v1 jobs job
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
-  tags: Jobs
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-delete-openapi.md
+- name: YouTube - Get Jobs Job
+  x-api-slug: v1jobsjobid-get
+  description: Get v1 jobs job
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-get-openapi.md
+- name: YouTube - Get Jobs Job Reports
+  x-api-slug: v1jobsjobidreports-get
+  description: |-
+    Lists reports created by a specific job.
+    Returns NOT_FOUND if the job does not exist.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreports-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreports-get-openapi.md
+- name: YouTube - Get Jobs Job Reports Report
+  x-api-slug: v1jobsjobidreportsreportid-get
+  description: Gets the metadata of a specific report.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreportsreportid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreportsreportid-get-openapi.md
+- name: YouTube - Get Jobs Job Reports Report
+  x-api-slug: v1jobsjobidreportsreportid-get
+  description: Gets the metadata of a specific report.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreportsreportid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreportsreportid-get-openapi.md
+- name: YouTube - Get Jobs Job Reports
+  x-api-slug: v1jobsjobidreports-get
+  description: |-
+    Lists reports created by a specific job.
+    Returns NOT_FOUND if the job does not exist.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreports-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobidreports-get-openapi.md
+- name: YouTube - Get Jobs Job
+  x-api-slug: v1jobsjobid-get
+  description: Get v1 jobs job
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-get-openapi.md
+- name: YouTube - Delete Jobs Job
+  x-api-slug: v1jobsjobid-delete
+  description: Delete v1 jobs job
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/jobs/master/_listings/youtube/v1jobsjobid-delete-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://yelp.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://youtube.stack.network
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
 - type: x-authentication

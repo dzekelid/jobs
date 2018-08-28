@@ -151,6 +151,32 @@ paths:
       - Jobs
       - Job
       - Reports
+  /v1/jobs/{jobId}/reports/{reportId}:
+    get:
+      summary: Get Jobs Job Reports Report
+      description: Gets the metadata of a specific report.
+      operationId: getV1JobsJobReportsReport
+      x-api-path-slug: v1jobsjobidreportsreportid-get
+      parameters:
+      - in: path
+        name: jobId
+        description: The ID of the job
+      - in: query
+        name: onBehalfOfContentOwner
+        description: The content owners external ID on which behalf the user is acting
+          on
+      - in: path
+        name: reportId
+        description: The ID of the report to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - V1
+      - Jobs
+      - Job
+      - Reports
+      - Report
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

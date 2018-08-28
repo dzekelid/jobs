@@ -71,6 +71,79 @@ paths:
       - Jobs
       - Job
       - Id
+  /jobs/{job_id}/cancel:
+    put:
+      summary: Cancel a Job
+      description: If you wish to cancel a job that has not yet finished processing
+        you may send a request.
+      operationId: putJobsJobCancel
+      x-api-path-slug: jobsjob-idcancel-put
+      parameters:
+      - in: query
+        name: api_key
+        description: The API Key
+      - in: query
+        name: job_id
+        description: The job id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+      - Job
+      - Id
+      - Cancel
+  /jobs/{job_id}/finish:
+    put:
+      summary: Finish a LIve Job
+      description: Finishes the input on a Live streaming job.
+      operationId: putJobsJobFinish
+      x-api-path-slug: jobsjob-idfinish-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+      - Job
+      - Id
+      - Finish
+  /jobs/{job_id}/progress:
+    get:
+      summary: Job Progress
+      description: 'The return will contain one or more of the following keys: state,
+        input, outputs, and progress.'
+      operationId: getJobsJobProgress
+      x-api-path-slug: jobsjob-idprogress-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+      - Job
+      - Id
+      - Progress
+  /jobs/{job_id}/resubmit:
+    put:
+      summary: Resubmit a Job
+      description: If a job has failed processing you may request that it be attempted
+        again.
+      operationId: putJobsJobResubmit
+      x-api-path-slug: jobsjob-idresubmit-put
+      parameters:
+      - in: query
+        name: api_key
+        description: The API Key
+      - in: query
+        name: job_id
+        description: The job id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Jobs
+      - Job
+      - Id
+      - Resubmit
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
